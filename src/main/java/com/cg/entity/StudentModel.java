@@ -1,15 +1,11 @@
 package com.cg.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
-@NoArgsConstructor
 
-@Data
 @Document(collection ="Student-details")
 
 public class StudentModel {
