@@ -20,6 +20,10 @@ public class StudentModel {
         this.salary = salary;
     }
 
+    public StudentModel() {
+
+    }
+
     public int getAge() {
         return age;
     }
